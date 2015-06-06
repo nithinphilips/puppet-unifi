@@ -1,0 +1,21 @@
+{
+  "name": "djl-unifi",
+  "version": "0.0.1",
+  "author": "djl",
+  "summary": "Installs the Unifi controller software",
+  "license": "ISC",
+  "source": "https://github.com/djl/puppet-unifi.git",
+  "project_page": "https://github.com/djl/puppet-unifi",
+  "issues_url": "https://github.com/djl/puppet-unifi/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.0"
+    },
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "> 0.0.0"
+    }
+  ]
+}
+
